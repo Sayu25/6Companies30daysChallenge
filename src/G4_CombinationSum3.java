@@ -1,6 +1,4 @@
 import java.util.ArrayList;
-
-import java.util.ArrayList;
 import java.util.*;
 
 public class G4_CombinationSum3 {
