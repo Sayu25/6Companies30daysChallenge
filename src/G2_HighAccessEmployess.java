@@ -1,6 +1,5 @@
 import java.util.*;
 
-
 public class G2_HighAccessEmployess {
     public static void main(String[] args) {
         List<List<String>> list = new ArrayList<>();
