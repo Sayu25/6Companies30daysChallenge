@@ -1,18 +1,18 @@
 import java.util.*;
 
-class G4_RandomFlipMatrix {
+class G5_RandomFlipMatrix {
     private static int m;
     private static int n;
 
     public static void main(String[] args) {
-        G4_RandomFlipMatrix obj = new G4_RandomFlipMatrix(m, n);
+        G5_RandomFlipMatrix obj = new G5_RandomFlipMatrix(m, n);
         int[] param_1 = obj.flip();
         obj.reset();
     }
     private int total;
     private Random rand = new Random();
     private Map<Integer, Integer> map = new HashMap<>();
-    public G4_RandomFlipMatrix (int m, int n){
+    public G5_RandomFlipMatrix(int m, int n){
             this.m = m;
             this.n = n;
             this.total = m * n;

@@ -1,5 +1,5 @@
 import java.util.*;
-public class G5_LetterCombinationsofPhoneNumber {
+public class G6_LetterCombinationsofPhoneNumber {
     public static void main(String[] args) {
         String digits = "23";
         List<String> result = letterCombinations(digits);
