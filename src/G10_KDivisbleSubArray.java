@@ -2,6 +2,12 @@ import java.util.Set;
 import java.util.HashSet;
 public class G10_KDivisbleSubArray {
     public static void main(String[] args) {
+
+        int num = 24;
+        long addon = 1000*60*60*(long)(24);
+        System.out.println(addon);
+
+
         int[] nums = {2, 3, 3, 2 ,2};
         int k=2, p=2;
         Set<String> set = new HashSet<>();
